@@ -5,7 +5,8 @@
   "env": {
     "mocha": true,
     "node": true,
-    "browser": true
+    "browser": true,
+    "es6": true
   },
   "globals": {
     "chai": true,
@@ -19,6 +20,7 @@
   "rules": {
     "no-debugger": "warn",
     "no-console": "warn",
+    "semi": "warn",
     "no-multiple-empty-lines": ["error", {
       "max": 1,
       "maxBOF": 1,
